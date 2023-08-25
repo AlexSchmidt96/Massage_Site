@@ -11,10 +11,10 @@ export default class CarouselBox extends Component {
             <Carousel>
                 <Carousel.Item>
                     <img
+                        height='950px'
                         className="d-block w-100"
                         src={personalFoto}
                         alt="Personal Foto"
-                        height='1000px'
                     />
                     <Carousel.Caption>
                         <p> Меня зовут Алексей, я имею среднее специальное образование по профилю: "Сестринское дело".
@@ -23,7 +23,7 @@ export default class CarouselBox extends Component {
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
-                        height='1000px'
+                        height='950px'
                         className="d-block w-100"
                         src={personalFoto2}
                         alt="Personal Foto2"
@@ -35,7 +35,7 @@ export default class CarouselBox extends Component {
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
-                        height='1000px'
+                        height='950px'
                         className="d-block w-100"
                         src={table1}
                         alt="table 1"
@@ -47,7 +47,7 @@ export default class CarouselBox extends Component {
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
-                        height='1000px'
+                        height='950px'
                         className="d-block w-100"
                         src={table2}
                         alt="table 2"
